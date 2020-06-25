@@ -1,0 +1,8 @@
+---
+  - name: Test Ansible Tower role
+    hosts:
+      - all
+    gather_facts: true
+    roles:
+      - roleawx
+
